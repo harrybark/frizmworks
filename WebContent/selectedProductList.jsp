@@ -39,8 +39,8 @@
 			<div class="cartView" style="display: none;">
 				<form action= "" id="cartform" method="post">
 					<ul class="cartView_One">
-						<li><input type="hidden" name="memberId" id="memberId" value="${member.memberId }"></li>
-						<li><input type="hidden" name="memberPw" id="memberPw" value="${member.memberPw }"></li>
+						<li><input type="hidden" name="memberId" id="memberId" class="memberId" value="${member.memberId }"></li>
+						<li><input type="hidden" name="memberPw" id="memberPw" class="memberPw" value="${member.memberPw }"></li>
 						<li><input type="hidden"name="product_No" value="${pList.product_No }"></li>
 						<li><input type="hidden"name="product_Name" value="${pList.product_Name }"></li>
 						<li class="selectbox">수량 : 
@@ -85,10 +85,12 @@
 
 			function addCart() {
 
-				var memberId = $('#memberId').val();
-				var memberPw = $('#memberPw').val();
+				var $cls = $('.cartView_Two').parents('.cartView');
+				var memberId = $cls.find('input.memberId').val();
+				var memberPw = $cls.find('input.memberPw').val();
 				var dataform = $('#cartform').serialize();
-
+				console.log(memberId);
+				
 				$.ajax({
 					url : "addCart.ca",
 					data : dataform,
@@ -102,7 +104,7 @@
 						alert("error!");
 					}
 
-				});
+				}); 
 			}
 		</script>
 
