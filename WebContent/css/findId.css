@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+.contents {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.contents .btn {
+	position: absolute;
+	width: 500px;
+	height: 40px; text-align : center; left : 25%;
+	top: 60px;
+	left: 25%;
+	text-align: center;
+}
+
+.contents .btn .btn1 {
+	background: #e3e3e3;
+	border: 0;
+	width: 150px;
+	height: 30px;
+	display: inline-block;
+	border-radius: 8%;
+}
+
+.contents .btn .btn1:hover {
+	cursor: pointer;
+	background: #c37a7a;
+}
+
+.contents .btn .btn2 {
+	background: #e3e3e3;
+	border: 0;
+	width: 150px;
+	height: 30px;
+	display: inline-block;
+	border-radius: 8%;
+}
+
+.contents .btn .btn2:hover {
+	cursor: pointer;
+	background: #c37a7a;
+}
+
+.contents .findId_s1, .findId_s2 {
+	text-align: center;
+	width: 500px;
+	height: 300px;
+	position: absolute;
+	top: 100px;
+	left: 25%;
+	background: #e3e3e3;
+	width: 500px;
+	border-radius: 8%;
+	box-sizing: border-box;
+	display: none;
+}
+
+.contents .findId_s1 h1, .findId_s2 h1 {
+	width: 500px;
+	color: #555;
+	padding: 25px 0;
+	font-weight: 400;
+}
+
+.contents .findId_s1 .close1, .findId_s2 .close2 {
+	position: absolute;
+	width: 50px;
+	text-align: center;
+	top: 20px;
+	right: 10px;
+}
+
+.contents .findId_s1 ul li, .findId_s2 ul li {
+	width: 100%;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.contents .findId_s1 ul li:nth-child(1) input, .findId_s2 ul li:nth-child(1) input {
+	width: 90%;
+	height: 30px;
+	text-indent: 15px;
+}
+.contents .findId_s2 ul li:nth-child(2) select{
+	text-align-last:center;
+	width: 25%;
+	height: 30px;
+}
+.contents .findId_s2 ul li:nth-child(2) input{
+	width: 25%;
+	height: 30px;
+	text-indent: 15px;
+}
+.contents .findId_s1 ul li input.memberEmail {
+	width: 30%;
+	height: 30px;
+	text-indent: 15px;
+}
+.contents .findId_s1 ul li input[name=emailBox]{
+	width:28%;
+	height: 30px;
+	text-align-last:center;
+	margin-right:5px;
+}
+.contents .findId_s1 ul li select{
+	width:24%;
+	height: 30px;
+	text-indent: 15px;
+}
+.contents .findId_s1 ul li .findIdBtn1, .findId_s2 ul li .findIdBtn2 {
+	width: 130px;
+	height: 40px;
+	border: 0;
+	background: #777;
+	color: white;
+	font-size: 15px;
+}
+
+.contents .findId_s1 ul li .findIdBtn1:hover, .findId_s2 ul li .findIdBtn2:hover
+	{
+	cursor: pointer;
+	background: #c37a7a;
+}

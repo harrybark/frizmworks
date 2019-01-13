@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+.contents {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.contents .login {
+	text-align: center;
+	width: 500px;
+	height: 400px;
+	position: absolute;
+	top: 100px;
+	left: 25%;
+	background: #e3e3e3;
+	width: 500px;
+	border-radius: 8%;
+	box-sizing: border-box;
+}
+
+.contents .login h1 {
+	color: #555;
+	padding: 25px 0;
+	font-weight: 400;
+}
+
+.contents .login ul li {
+	width: 100%;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.contents .login ul li input {
+	width: 85%;
+	height: 30px;
+	text-indent: 15px;
+}
+
+.contents .login ul li .loginBtn {
+	width: 130px;
+	height: 40px;
+	border: 0;
+	background: #777;
+	color: white;
+	font-size: 15px;
+}
+
+.contents .login ul li .loginBtn:hover {
+	cursor: pointer;
+	background: #c37a7a;
+}
+
+.contents .login .sub_login {
+	width: 100%;
+	height: 40px;
+}
+
+.contents .login .sub_login ul li {
+	width: 100%;
+	overflow: hidden;
+}
+
+.contents .login .sub_login ul li:nth-child(1) a {
+	line-height: 40px;
+	width: 40%;
+	text-align: center;
+	display: inline-block;
+	margin: 10px 5px;
+	color: #999;
+	text-decoration: underline;
+	font-weight:300;
+	transition: all 0.2s;
+}
+
+.contents .login .sub_login ul li:nth-child(1) a:hover {
+	font-size: 20px;
+	color: black;
+	text-decoration:none;
+}
+.contents .login .sub_login ul li:last-child{
+	width:100%;
+	font-size:13px;
+	letter-spacing:1px;
+	font-weight:300;
+	margin-left:5px;
+	overflow:hidden;
+}
+.ext{
+	position:absolute;
+	bottom:0;
+	right:0;
+	display:block;
+}
+.ext button{
+	width:100px;
+	height:45px;
+	border-radius:0 0 41% 0;
+	border:0;
+	box-sizing:border-box;
+	background: #e3e3e3;
+	font-size:15px;
+	transition: all 1s;
+}
+.ext button:hover{
+	cursor:pointer;
+	background: #c37a7a;
+	font-size:17px;
+}

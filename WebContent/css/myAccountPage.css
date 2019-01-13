@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+.contents {
+	width: 100%;
+	height: 850px;
+	position: relative;
+	overflow: hidden;
+}
+
+.contents #myAccount {
+	width: 100%;
+	height: 300px;
+	position: absolute;
+	top: 100px;
+	display: block;
+}
+
+.contents #myAccount .subAccount .myInfo {
+	width: 60%;
+	height: 100%;
+	position: relative;
+	left: 20%;
+	background: #e1e1e1;
+	border: 2px solid #e3e3e3;
+	box-sizing: border-box;
+	border-radius:2%;
+}
+
+.contents #myAccount .subAccount .myInfo  h3 {
+	width: 100%;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.contents #myAccount .subAccount .myInfo ul li {
+	text-indent: 15px;
+	margin: 5px 0;
+	width: 100%;
+}
+
+.contents #myAccount .subAccount .myInfo ul li:last-child {
+	width: 100%;
+	margin: 15px 0;
+	text-align: center;
+	text-indent: 0px;
+}
+
+.contents #myAccount .subAccount .myInfo ul li button {
+	width: 100px;
+	height: 30px;
+	border: 0;
+	background: black;
+	color: white;
+	font-weight: 300;
+}
+
+.contents #myAccount .subAccount .myInfo ul li button:hover {
+	cursor: pointer;
+	background: #c37a7a;
+}
+
+/* 회원 탈퇴 폼 */
+.contents #myAccount .removalInfo {
+	height: 240px;
+	width: 100%;
+	position: absolute;
+}
+
+.contents #myAccount .removalInfo .removalform {
+	width: 30%;
+	height: 100%;
+	position: relative;
+	left: 35%;
+	background: #e1e1e1;
+	box-sizing: border-box;
+	border-radius: 5%;
+	text-align:center;
+}
+
+.contents #myAccount .removalInfo .removalform h3 {
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.contents #myAccount .removalInfo .removalform ul li {
+	width: 80%;
+	margin: 10px auto;
+}
+.contents #myAccount .removalInfo .removalform ul li:nth-child(1){
+	text-align:left;
+}
+.contents #myAccount .removalInfo .removalform ul li input {
+	width: 100%;
+	height: 30px;
+	text-indent: 10px;
+}
+
+.contents #myAccount .removalInfo .removalform button {
+	width: 100px;
+	height: 30px;
+	background: black;
+	color: white;
+	font-weight: 300;
+	border: 0;
+	margin:15px 0 0 0;
+}
+
+.contents #myAccount .removalInfo .removalform  button:hover {
+	cursor: pointer;
+	background: #c37a7a;
+}
+
+/* 회원 수정 폼 */
+.contents #myAccount .modiInfo {
+	height: 700px;
+	width: 100%;
+	position: absolute;
+}
+
+.contents #myAccount .modiInfo .modformInfo {
+	width: 30%;
+	height: 100%;
+	position: relative;
+	left: 35%;
+	background: #e1e1e1;
+	box-sizing: border-box;
+	border-radius: 5%;
+	text-align:center;
+}
+
+.contents #myAccount .modiInfo .modformInfo h3 {
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.contents #myAccount .modiInfo .modformInfo ul li {
+	width: 80%;
+	margin: 10px auto;
+}
+.contents #myAccount .modiInfo .modformInfo ul li:nth-child(1){
+	text-align:left;
+}
+.contents #myAccount .modiInfo .modformInfo ul li input {
+	width: 100%;
+	height: 30px;
+	text-indent: 10px;
+}
+.contents #myAccount .modiInfo .modformInfo ul li:nth-child(8) input, .contents #myAccount .modiInfo .modformInfo ul li:nth-child(8) span{
+ display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 15px 0 0;
+    vertical-align:middle;
+    text-indent:0px;
+}
+.contents #myAccount .modiInfo .modformInfo ul li:nth-child(9) input, .contents #myAccount .modiInfo .modformInfo ul li:nth-child(9) span{
+ display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 15px 0 0;
+    vertical-align:middle;
+    text-indent:0px;
+}
+.contents #myAccount .modiInfo .modformInfo button {
+	width: 100%;
+	height: 30px;
+	background: black;
+	color: white;
+	font-weight: 300;
+	border: 0;
+	margin:15px 0 0 0;
+}
+
+.contents #myAccount .modiInfo .modformInfo  button:hover {
+	cursor: pointer;
+	background: #c37a7a;
+}

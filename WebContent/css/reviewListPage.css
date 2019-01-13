@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+.contents {
+	width: 100%;
+	height: 800px;
+	position: relative;
+	overflow: hidden;
+}
+
+.contents .reviewList {
+	width: 100%;
+	position: absolute;
+	top: 100px;
+	display: block;
+}
+
+.contents .reviewList .s1 {
+	width: 100%;
+	height: 80%;
+}
+
+.contents .reviewList .s2 {
+	width: 100%;
+	text-align: right;
+	margin: 10px 0;
+}
+
+.contents .reviewList .s2 p {
+	width: 250px;
+}
+
+.contents .reviewList .s2 input[name=review_Subject] {
+	width: 180px;
+	line-height: 30px;
+	text-indent: 10px;
+	border: 2px solid #e3e3e3;
+	display: inline-block;
+	background: #fdf6f6;
+}
+
+.contents .reviewList .s2 input[name=search] {
+	margin-right: 80px;
+	width: 70px;
+	line-height: 30px;
+	box-sizing: border-box;
+	border: 2px solide #e3e3e3;
+	display: inline-block;
+	background: #e3e3e3;
+}
+
+.contents .reviewList .s2 input[name=search]:hover {
+	cursor: pointer;
+	background: #c37a7a;
+	border: 2px solide #c37a7a;
+}
+
+.contents .reviewList .sub-reviewList {
+	width: 95%;
+	height: 15%;
+	text-align:right;
+}
+
+.contents .reviewList .sub-reviewList a {
+	display: block;
+}
+
+.contents .reviewList .sub-reviewList a button{
+	width:80px;
+	height:30px;
+	
+}
+
+.contents .reviewList .review-s1 {
+	width: 20%;
+	height: 300px;
+	display: inline-block;
+	margin-left: 30px;
+}
+.contents .reviewList .review-s1 ul li span{
+	display:inline-block;
+}
+.contents .reviewList .review-s1 img {
+	width: 100%;
+	height: 200px;
+	border: 0;
+}
+
+.contents .reviewList  .sub-reviewList .list {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.contents .reviewList  .sub-reviewList .list ul li {
+	width:100%;
+	display: inline-block;
+	margin-right: 10px;
+}

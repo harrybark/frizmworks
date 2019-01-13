@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+#main {
+	width: 100%;
+	min-width:1040px;
+	height: 100%;
+	overflow: hidden;
+}
+
+#main #left-main {
+	width: 18%;
+	height: 100%;
+	float: left;
+}
+
+#main #left-main .main-logo {
+	position: fixed;
+	z-index: 99;
+	top: 34px;
+	left: 50px;
+}
+
+#main #left-main .main-logo a img {
+	width: 147px;
+}
+
+#main #left-main .left-categories {
+	position: fixed;
+	left: 50px;
+	top: 150px;
+	z-index: 4;
+	vertical-align: center;
+	line-height: 30px;
+}
+
+#main #left-main .left-categories div a {
+	color: black;
+	font-size: 12px;
+}
+
+#main #left-main .left-categories #shop {
+	cursor: pointer;
+}
+
+#main #left-main .left-categories #shop p {
+	font-size: 12px;
+}
+
+#main #left-main .left-categories #shop .shop_Contents {
+	padding-left: 10px;
+}
+
+#main #right-main {
+	width: 82%;
+	min-width:935px;
+	height: 900px;
+	float: right;
+}
+
+#main #right-main .right_contents {
+	position: fixed;
+	right: 60px;
+	top: 30px;
+	z-index: 4;
+	vertical-align: center;
+}
+
+#main #right-main .right_contents ul li {
+	display: inline-block;
+	padding-left: 20px;
+	cursor: pointer;
+}
+
+#main #right-main .right_contents ul li a {
+	display: block;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+#main #right-main .right_contents ul li:hover {
+	text-decoration: underline;
+}
+
+#main #footer {
+	width: 100%;
+}
+
+#main #footer .footer-tr {
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	padding: 20px 50px 0px;
+	background: #fff;
+	z-index: 1;
+	font-size: 11px;
+	letter-spacing: 0.5px;
+}
+
+#main #footer .footer-tr .left_footer {
+	width: 30%;
+	margin-right: 3%;
+	border-right: 1px solid #f1f1f1;
+	line-height: 2.5em;
+	float: left;
+	font-weight: 500;
+}
+
+#main #footer .footer-tr .left_footer ul li {
+	display: block;
+	color: #999;
+}
+
+#main #footer .footer-tr .left_footer ul li a {
+	display:inline-block;
+	padding-right:5px;
+	color: #999;
+}
+#main #footer .footer-tr .left_footer ul li.follow a{
+	
+}
+#main #footer .footer-tr .left_footer ul li span {
+	padding-left: 3px;
+	display: inline-block;
+	color: #999;
+}
+
+#main #footer .footer-tr .left_footer ul li img {
+	width: 13px;
+}
+
+#main #footer .footer-tr .center_footer {
+	width: 30%;
+	margin-right: 3%;
+	border-right: 1px solid #f1f1f1;
+	line-height: 2.5em;
+	float: left;
+	font-weight: 500;
+}
+
+#main #footer .footer-tr .center_footer ul li {
+	display: block;
+	color: #999;
+}
+
+#main #footer .footer-tr .center_footer span {
+	color: #666;
+}
+
+#main #footer .footer-tr .right_footer {
+	width: 30%;
+	margin-right: 3%;
+	border-right: 1px solid #f1f1f1;
+	line-height: 2.5em;
+	float: left;
+	font-weight: 500;
+}
+
+#main #footer .footer-tr .right_footer ul li {
+	display: block;
+	color: #999;
+}
+
+#main #footer .footer-tr .right_footer span {
+	color: #666;
+}
