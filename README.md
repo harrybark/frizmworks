@@ -11,3 +11,4 @@ MVC MODEL2 PROJECT IN JAVA, MYSQL
 - [x] : cart
 - [x] : My Info
 - [x] : modification/removal info
+
